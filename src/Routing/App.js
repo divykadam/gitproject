@@ -1,17 +1,13 @@
-import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './Layout';
-import PullRequestList from './PullRequestList';
-import IssuesList from './issues';
-import AllPullRequest from './AllpullR';
-import AllIssues from './AllIssues';
+import Layout from '../Routing/Layout';
+import PullRequestList from '../Component/PullRequestList';
+import IssuesList from '../Component/issues';
+import AllPullRequest from '../Component/AllpullR';
+import AllIssues from '../Component/AllIssues';
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      
-=======
       {/* <h1>https://api.github.com/users/DivyansheeKadam/repos</h1> */}
       {/* https://api.github.com/repos/DivyansheeKadam/Forms/pulls{/number} */}
       <BrowserRouter>
@@ -25,8 +21,6 @@ function App() {
         </Route>
       </Routes>
       </BrowserRouter>
-
->>>>>>> master
     </div>
   );
 }

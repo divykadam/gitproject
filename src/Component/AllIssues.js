@@ -1,3 +1,4 @@
+import '../css/List.css'
 const AllIssues=(props)=>{
 console.log(props.pullData)
     return(<>

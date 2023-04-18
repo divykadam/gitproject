@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import "./List.css";
+import "../css/List.css";
 import { Link } from "react-router-dom";
 import AllIssues from "./AllIssues";
 const IssuesList = () => {

@@ -1,0 +1,19 @@
+.linkblock{
+    background-color: rgb(74, 70, 70);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: rgb(54, 216, 216);
+    text-decoration: none;
+    background-color:  white;
+    padding: 10px;
+    border-radius: 10px 0px 10px;
+    border: 2px solid  rgb(54, 216, 216);;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+
+
+}
